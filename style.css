@@ -1,0 +1,126 @@
+
+:root {
+	
+	--background: #121212;
+	--color: 255, 72, 84;
+	--text-color-1: rgba(255, 255, 255, .8);
+	--text-color-2: #121212;
+}
+
+* {
+
+	margin: 0;
+	padding: 0;
+	border: none;
+
+}
+
+body {
+
+	min-height: 100vh;
+	background: var(--background);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: 'Open Sans' , sans-serif;
+
+}
+
+
+main {
+
+	padding: 48px;
+	color: var(--text-color-1);
+	user-select: none;
+}
+
+main .profile {
+
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+main .profile h1 {
+
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 16px;
+}
+
+main .profile h2 {
+
+	font-weight: normal;
+	font-size: 12px;
+}
+
+a[href="https://www.instagram.com/ishahryar/"] {
+
+	color: #ff0000;
+	font-weight: bold;
+}
+
+a[href="contact_details/ishahryar.vcf"] {
+
+	color: #ffff00;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+
+main a {
+
+	font-weight: regular;
+	font-size: 16px;
+	color: #cc0000;
+	text-decoration: none;
+	margin-top: 8px;
+}
+
+main .profile img {
+
+	width: 150px;
+	height: 150px;
+	object-fit: contain;
+	border-radius: 50%;
+}
+
+main .links {
+
+	list-style-type: none;
+	margin-top: 64px;
+}
+
+
+main .links li {
+
+	border: 2px solid #ff0000;
+	border-radius: 10px;
+
+	transition: background .2s;
+}
+
+main .links li a {
+
+	margin-top: 0px;
+	display: block;
+	padding: 16px 24px;
+}
+
+
+main .links li:hover {
+
+	background: #00ff00;
+}
+
+main .links li {
+
+	margin-bottom: 5px;
+}
+
+
